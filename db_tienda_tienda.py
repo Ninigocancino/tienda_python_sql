@@ -6,8 +6,11 @@ conexion = sqlite3.connect("tienda_tienda.db")
 
 cursor = conexion.cursor()
 
+
+
 #Crear tablas en la dase de datos
 
+"""
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS Productos (
         id_producto INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -49,4 +52,8 @@ cursor.execute('''
     )
 ''')
 
-conexion.commit()
+"""
+
+
+
+
